@@ -69,20 +69,37 @@ body {
 }
 
 .Project-Photo {
-  width: 280px;
+  display: flex;              
+  align-items: center;          
   margin: 20px auto;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  vertical-align: top;
+  width: 80%;                   
+  max-width: 800px;             
+  text-align: left;  
+  justify-content: flex-start;
 }
 
 .Project-Photo img {
-  width: 250px;
-  height: 210px;
+  width: 200px;                
+  height: 160px;
   border-radius: 5px;
   object-fit: cover;
+  margin-right: 25px; 
+}
+
+.project-text {
+  text-align: left;         
+}
+
+.project-text h3 {
+  margin: 0;                 
+}
+
+.project-text p {
+  margin: 5px 0 0;           
 }
 
 .gallery {
@@ -106,3 +123,4 @@ body {
   border-radius: 10px;
   box-shadow: o 2px 8px rgba(0,0,0,0.1);
 }
+
